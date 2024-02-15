@@ -23,7 +23,7 @@ import react from '@vitejs/plugin-react';
 export default defineConfig({
   plugins: [react()],
   build: {
-    outDir: 'build',
+    outDir: 'dist',
     assetsInclude: /\.(jpg|jpeg|webp|png|gif|avif)$/, // Specify the file extensions to include
   },
 });
