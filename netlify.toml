@@ -1,4 +1,5 @@
 [[redirects]]
 from = "/*"
 to = "/index.html"
-status = 200npm run build
+status = 200
+command = "npm run build"
